@@ -9,9 +9,20 @@
 /* NavStyles */
 nav {
     display: flex;
+    justify-content: space-between;
     background-color: coral;
     color: whitesmoke;
     padding: 1rem;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+nav .fa-door-open {
+    color: red;
 }
 
 /* BodyStyles */
