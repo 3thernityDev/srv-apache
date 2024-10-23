@@ -64,7 +64,7 @@ const user = () => {
 
 user();
 
-// Etudiants
+// Etudiants (iteration)
 
 let etudiants = ["Dorian", "Gabriel", "Julien", "Lou"];
 let divs = document.getElementsByClassName("col");
