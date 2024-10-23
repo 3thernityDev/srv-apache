@@ -29,3 +29,16 @@ console.log(typeof personne);
 personne.pseudo = "TroisThernity";
 console.log(personne);
 // Fonction pour dynamisé l'object personne
+
+
+
+// Structure Conditionnel
+const checkAge = () => {
+    if (personne.age < 18) {
+        console.log("Vous n'avez pas l'âge requis pour acceder à ce site");
+    } else {
+        console.log("Bonne visite !");
+    }
+};
+
+checkAge();
