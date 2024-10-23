@@ -59,3 +59,17 @@ body {
 .objectContainer input[type="text"]:focus {
     border-bottom: 5px solid black;
 }
+
+.objectContainer form button {
+    border: none;
+    background-color: orange;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.objectContainer form button:hover {
+    border: none;
+    background-color: rgb(219, 154, 33);
+}

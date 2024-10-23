@@ -51,3 +51,15 @@ const checkAge = () => {
 };
 
 checkAge();
+
+// Fonction pour dynamisé l'utilisateur
+const user = () => {
+    let user = {
+        pseudo: "3thernity",
+        age: 20,
+    };
+
+    document.getElementById("pseudo").innerText = user.pseudo;
+};
+
+user();
