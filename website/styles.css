@@ -30,3 +30,21 @@ nav .fa-door-open {
 body {
     background-color: black;
 }
+
+/* objectContainerStyles */
+
+.objectContainer {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.objectContainer form {
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    padding: 5rem;
+    color: black;
+    border-radius: 1rem;
+}

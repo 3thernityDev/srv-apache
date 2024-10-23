@@ -5,7 +5,7 @@
 console.log("Welcome in this javascript test :)");
 
 // Utilisation de variables
-
+// Fonction pour dynamisé le nom d'utilisateur
 const setPseudo = () => {
     let pseudo = "3thernity";
     console.log(pseudo);
@@ -18,3 +18,14 @@ const toto = 1;
 console.log(typeof toto);
 
 // Object
+let personne = {
+    pseudo: "3thernity",
+    age: 20,
+};
+
+console.log(personne);
+console.log(typeof personne);
+
+personne.pseudo = "TroisThernity";
+console.log(personne);
+// Fonction pour dynamisé l'object personne
