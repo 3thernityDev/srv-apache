@@ -29,8 +29,17 @@ console.log(typeof personne);
 personne.pseudo = "TroisThernity";
 console.log(personne);
 // Fonction pour dynamisé l'object personne
+const personne2 = () => {
+    let personne2 = {
+        pseudo: "3thernity",
+        age: 20,
+    };
 
+    document.getElementById("pseudo2").value = personne2.pseudo;
+    document.getElementById("age").value = personne2.age;
+};
 
+personne2();
 
 // Structure Conditionnel
 const checkAge = () => {

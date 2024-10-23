@@ -48,3 +48,14 @@ body {
     color: black;
     border-radius: 1rem;
 }
+
+.objectContainer input[type="text"] {
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    outline: unset;
+}
+
+.objectContainer input[type="text"]:focus {
+    border-bottom: 5px solid black;
+}
