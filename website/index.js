@@ -64,3 +64,10 @@ const user = () => {
 
 user();
 
+// Etudiants
+
+let etudiants = ["Dorian", "Gabriel", "Julien", "Lou"];
+let divs = document.getElementsByClassName("col");
+for (i = 0; i < divs.length; i++) {
+    divs[i].innerText = etudiants[i]
+}
