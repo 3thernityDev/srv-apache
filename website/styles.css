@@ -73,3 +73,17 @@ body {
     border: none;
     background-color: rgb(219, 154, 33);
 }
+
+.integrityContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.integrityContainer .col {
+    background-color: whitesmoke;
+    width: 100%;
+    border: 1px solid orange;
+    font-size: large;
+}
